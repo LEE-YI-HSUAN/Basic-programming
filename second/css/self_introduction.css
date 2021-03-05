@@ -35,3 +35,26 @@ footer{
     text-align: center;
     padding: 50px;
 }
+nav{
+    background-color: coral;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    padding: 25px;
+}
+a{
+    /* 不要底線 */
+    text-decoration: none;
+    color: darkslategrey;
+    
+    font-size: 25px;
+    display: inline;
+}
+nav ul li a:hover{
+    background-color: darkslategrey;
+    color: coral;
+}
