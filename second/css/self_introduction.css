@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    /* padding不會列入%計算中 */
+    box-sizing: border-box;
+}
+header{
+    background:wheat;
+    color:slategrey;
+    /* 置中 */
+    text-align: center;
+    /* 兩者效果不同 */
+    /* height: 300px; */
+     padding: 100px; 
+}
+article{
+    background-color: teal;
+    float: left;
+    width: 70%;
+    padding: 10px;
+    /* 將超出範圍隱藏 */
+    /* overflow: hidden; */
+    /* 超出時增加滾輪 */
+    /* overflow: auto; */
+}
+aside{
+    background-color: tomato;
+    float: right;
+    width: 30%;
+    padding: 10px;
+}
+footer{
+    /* 取消浮動 */
+    clear: both;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 50px;
+}
