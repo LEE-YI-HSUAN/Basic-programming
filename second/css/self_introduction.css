@@ -37,20 +37,30 @@ footer{
 }
 nav{
     background-color: coral;
+
+    width: 100%;
+    position : relative;
+    float: left;
 }
 nav ul{
     text-align: center;
+    margin: 0;
+    overflow: hidden;
 }
 nav ul li{
     display: inline;
     list-style-type: none;
-    padding: 25px;
+
+    float: left;
+    /* padding: 25px; */
+     width: 20%; 
+    
+    border-right:3px solid darkslategrey;
 }
 a{
     /* 不要底線 */
     text-decoration: none;
     color: darkslategrey;
-    
     font-size: 25px;
     display: inline;
 }
@@ -58,3 +68,6 @@ nav ul li a:hover{
     background-color: darkslategrey;
     color: coral;
 }
+/* nav ul li:hover{
+    background-color: darkslategrey;
+} */
