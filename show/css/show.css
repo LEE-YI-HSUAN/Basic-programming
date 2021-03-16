@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 header{
     background-color: cadetblue;
@@ -9,7 +9,7 @@ header{
     border-bottom: 2px solid lightslategray;
     text-align: center;
 }
-.main{
+#main{
     width: 95%;
     margin: 0 auto;
     /* test */
@@ -24,7 +24,7 @@ header{
     text-align: center;
     /* background-color: crimson; */
 }
-.meun text{
+.meun input{
     font-size: 30px;
     width: 10%;
     float: right;
@@ -32,6 +32,9 @@ header{
     border-radius: 5px;
     background-color: cornflowerblue;
     margin-left: 1%;
+}
+.meun input:hover{
+    background-color:lightskyblue;
 }
 
 .container{
@@ -47,6 +50,12 @@ header{
     color: black;
     font-size: 20px;
 }
+.container:hover{
+    /* ©ñ¤j */
+    transform: scale(1.1);
+    opacity: 0.8;
+    background-color: darkolivegreen;
+}
 .show-img{
     width: 100%;
     height:80%;
@@ -56,4 +65,15 @@ header{
 .show-title{
     text-align: center;
     padding: 3%;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin: 0 auto;
+    background-color: darkcyan;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 28px;
 }
