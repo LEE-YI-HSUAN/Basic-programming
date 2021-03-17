@@ -24,18 +24,7 @@ header{
     text-align: center;
     /* background-color: crimson; */
 }
-.meun input{
-    font-size: 30px;
-    width: 10%;
-    float: right;
-    border:1px solid black;
-    border-radius: 5px;
-    background-color: cornflowerblue;
-    margin-left: 1%;
-}
-.meun input:hover{
-    background-color:lightskyblue;
-}
+
 
 .container{
     float: left;

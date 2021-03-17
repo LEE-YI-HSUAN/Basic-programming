@@ -1,0 +1,9 @@
+.git/
+node_modules/
+views/
+package-lock.json
+.DS_Store
+desktop.ini
+.vscode
+.vs
+yarn.lock
