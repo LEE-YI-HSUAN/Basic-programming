@@ -3,15 +3,18 @@
     box-sizing: border-box;
 }
 header{
-    background-color: cadetblue;
+    background-color: #85A894;
     width: 100%;
     padding: 2%;
-    border-bottom: 2px solid lightslategray;
+    border-bottom: 2px solid #85A894;
     text-align: center;
+    color: #30415D;
 }
 #main{
     width: 95%;
+    /* height: 100%; */
     margin: 0 auto;
+    /* background-color:#EFD9C1; */
 }
 .meun{
     padding: 3%;
@@ -25,12 +28,13 @@ input{
     font-size: 30px;
     width: 30%;
     height: 100px;
-    border:1px solid black;
+    border:1px solid #30415D;
     border-radius: 5px;
-    background-color: cornflowerblue;
+    background-color:#A9B7C0;
     margin: 5%;
+    color: #30415D;
     
 }
 input:hover{
-    background-color:lightskyblue;
+    background-color:#CCCBC6;
 } 
